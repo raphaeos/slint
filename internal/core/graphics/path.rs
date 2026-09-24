@@ -14,6 +14,8 @@ use const_field_offset::FieldOffsets;
 use euclid::Point2D;
 use i_slint_core_macros::*;
 
+use num_traits::Euclid;
+
 #[repr(C)]
 #[derive(FieldOffsets, Default, SlintElement, Clone, Debug, PartialEq)]
 #[pin]
